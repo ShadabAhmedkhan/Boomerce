@@ -1,0 +1,19 @@
+/* Boomerce — Animations */
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(-16px) translateX(8px); }
+}
+
+.hero-bg { animation: floatSlow 12s ease-in-out infinite; }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.mobile-nav.active { animation: fadeIn 0.2s ease; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-bg { animation: none; }
+}
