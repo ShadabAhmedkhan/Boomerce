@@ -216,7 +216,7 @@ Buttons:
 
 Link the application where appropriate:
 
-app.boomerce.com
+inventory.boomerce.com
 
 ---
 
